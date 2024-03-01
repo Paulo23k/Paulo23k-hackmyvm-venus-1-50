@@ -108,7 +108,7 @@ Como não temos permissões de gravação no diretório inicial atual, criamos u
 
 *env - é utilizado para exibir as variáveis de ambiente do sistema operacional.*
 
-![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/440e9447-8fdf-4e18-8347-d890afa056eb)
+![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/642c7dc4-756b-4823-ae29-78b72c90a7bf)
 
 ## Missão 14: O administrador deixou a senha do usuário anna como comentário no arquivo passwd.
 
