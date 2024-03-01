@@ -153,9 +153,56 @@ No caso, "1970-01-02" é a data de 2 de janeiro de 1970. Portanto, ! -newermt 19
 
 ## Missão 18: A senha do usuário frida está no zip protegido por senha (rockyou.txt pode te ajudar).
 
-Agora piorou nossa situação, mas fique tranquilo eu estou aqui
+*Agora piorou nossa situação, mas fique tranquilo eu estou aqui*
 
-Vamos ter que usar o KALI LINUX, espero que você tenha.
+*Vamos ter que usar o KALI LINUX*
+
+*Vou simplificar para vocês por que os metodos que tem na internet estão OFF*
+
+*No terminal KALI-LINUX use esses comando:
+scp -P 5000 clara@venus.hackmyvm.eu:/pwned/clara/protected.zip .*
+
+*Coloque a senha da clara.*
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/096aeeb1-0f67-4ff8-ab4c-f1f518a879b7)
+
+*Use **pass123** para quebrar a senha.*
+
+Comandos:
+
+scp - *É frequentemente usado em situações em que é necessário transferir arquivos entre computadores de forma segura, 
+especialmente em ambientes de rede onde a segurança é uma preocupação.*
+
+unzip - 
+
+## Missão 19: A senha de eliza é a única string que se repete (não classificada) em Repeat.txt.
+
+*Agora molezinhaaa!!!*
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/3c2f8e42-8889-407f-af29-4b1f817f2171)
+
+uniq - *Normalmente é usado para remover ou relatar linhas duplicadas em um arquivo.*
+-d - *Opção o modifica para mostrar apenas as linhas duplicadas.*
+
+## Missão 20: A usuária Iris me deixou sua chave.
+
+*Olha que maravilha*
+
+*Em eliza se você usar o comando ls -a vai ter algo interessante.*
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/07dddebe-d2c1-481f-b811-722729608bf8)
+
+ssh - *É usado para iniciar uma sessão segura em um servidor remoto usando o protocolo SSH (Secure Shell). 
+O SSH permite que você se conecte a um servidor de forma segura e execute comandos remotamente.*
+
+-i .iris_key - *Aqui você está especificando qual chave privada (-i)d.iris_key.*
+iris@localhost - *que termina localhost para o qual você está se conectando.*
+
+
+
+
+
+
 
 
 
