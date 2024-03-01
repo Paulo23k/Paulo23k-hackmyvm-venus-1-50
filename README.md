@@ -62,30 +62,38 @@ Como não temos permissões de gravação no diretório inicial atual, criamos u
 
 ![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/1ffcc148-8c07-4035-8b2a-a3cc6364242c)
 
-*Comandos:
-mkdir - é usado para criar um novo diretório
-unzip - é uma ferramenta de linha de comando que é usada para descompactar arquivos no formato ZIP*
+*Comandos:*
+
+*mkdir - é usado para criar um novo diretório*
+
+*unzip - é uma ferramenta de linha de comando que é usada para descompactar arquivos no formato ZIP*
 
 ## Missão 10: A senha do usuário violeta está na linha que começa com a9HFX (esses 5 caracteres não fazem parte da senha dela.).
 
 ![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/d9aec4f5-4a1a-4a3e-924e-507b62e78df1)
 
-*Comandos:
-grep - é usado para pesquisar padrões em texto. Ele está procurando por linhas que começam com "a9HFX" no conteúdo do arquivo "passy".
-^ - representa o início de uma linha.*
+*Comandos:*
+
+*grep - é usado para pesquisar padrões em texto. Ele está procurando por linhas que começam com "a9HFX" no conteúdo do arquivo "passy".*
+
+*^ - representa o início de uma linha.*
+
 | *Este é o operador de pipe, que redireciona a saída do comando anterior*
 
 ## Missão 11: A senha da usuária lucy está na linha que termina com 0JuAZ (esses últimos 5 caracteres não fazem parte da senha dela)
 
 ![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/f6e2f449-0f5a-4615-81d1-c0b8f091f583)
 
-*cat end | grep 0JuAZ$ irá exibir todas as linhas do arquivo "end" que terminam exatamente com "0JuAZ".
-$ - é um caractere especial que representa o final de uma linha.*
+*cat end | grep 0JuAZ$ irá exibir todas as linhas do arquivo "end" que terminam exatamente com "0JuAZ".*
+
+*$ - é um caractere especial que representa o final de uma linha.*
 
 ## Missão 12: A senha da usuária elena está entre os caracteres fu e ck
 
-*Passo 1: A string que comece com 'fu', a expressão para isso é ^fu
-Passo 2: Agora vem qualquer número de caracteres, a expressão para isso é* .*
+*Passo 1: A string que comece com 'fu', a expressão para isso é ^fu*
+
+*Passo 2: Agora vem qualquer número de caracteres, a expressão para isso é* .*
+
 *Passo 3: A string deve terminar com 'ck' então a expressão para isso é ck$*
 
 
