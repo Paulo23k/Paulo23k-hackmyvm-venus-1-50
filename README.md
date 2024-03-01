@@ -119,6 +119,53 @@ Observação: A alice é seu admin.
 */etc/passwd é um arquivo de texto que armazena informações sobre as contas de usuário, 
 incluindo nomes de usuário, IDs de usuário (UID), diretórios home, entre outros.*
 
+## Missão 15: Talvez o sudo possa ajudar você a ser natalia.
+
+*Mais uma facil em*
+
+![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/c119c071-d0ac-45a4-9d22-796972743e28)
+
+*sudo para iniciar um shell Bash como outro usuário.*
+
+*-u <usuário>: Especifica o usuário com o qual o comando será executado.*
+
+*/bin/bash é o caminho para o interpretador de comandos Bash no sistema de arquivos, 
+e você pode usá-lo para iniciar um shell Bash manualmente ou especificá-lo em scripts Bash.*
+
+## Missão 16: A senha do usuário eva está codificada no arquivo base64.txt.
+
+![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/fa6c7dcf-21f0-4575-90da-a02026659dcf)
+
+*O nome do arquivo sugere que a senha é codificada em base64, então usamos o base64comando com a opção -d para decodificá-la.*
+
+## Missão 17: A senha do usuário clara é encontrada em arquivo modificado em 1º de maio de 1968.
+
+*Neste momento 99% das pessoas já querem desistir.*
+
+![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/d722a154-fb80-441a-a033-675d7c89e69d)
+
+*! - é um operador que nega a condição seguinte. -newermt é uma opção do find que procura arquivos modificados após a data especificada. 
+No caso, "1970-01-02" é a data de 2 de janeiro de 1970. Portanto, ! -newermt 1970-01-02 procura por arquivos que não foram modificados após 2 de janeiro de 1970.*
+
+*-ls - Isso solicita ao find para listar informações sobre os arquivos encontrados no formato similar ao comando ls -dils.*
+
+*e o resto é o resto....*
+
+## Missão 18: A senha do usuário frida está no zip protegido por senha (rockyou.txt pode te ajudar).
+
+Agora piorou nossa situação, mas fique tranquilo eu estou aqui
+
+Vamos ter que usar o KALI LINUX, espero que você tenha.
+
+
+
+
+
+
+
+
+
+
 
 
 
