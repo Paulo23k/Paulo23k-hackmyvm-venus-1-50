@@ -6,6 +6,8 @@
 
 ***ls -a** lista todos os arquivos e diretórios, incluindo os ocultos, no diretório atual.*
 
+*use o comando su sophia para entrar no user em seguida coloque a senha que você encontrou*
+
 *Observação: Depois que colocar a senha de um user faça isso...*
 
 ![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/9c95ce13-da10-4589-9d6d-81efcbf3946a)
@@ -95,6 +97,33 @@ Como não temos permissões de gravação no diretório inicial atual, criamos u
 *Passo 2: Agora vem qualquer número de caracteres, a expressão para isso é* .*
 
 *Passo 3: A string deve terminar com 'ck' então a expressão para isso é ck$*
+
+![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/346d8fb8-5254-4667-a02f-29fabaaca721)
+
+*Lembrando o fu e o ck não conta para a senha cebeção*
+
+## Missão 13: A usuária Alice tem sua senha em uma variável de ambiente.
+
+*aaaaaaaaaaa essa é facil em, use o comando 'env' e se vira kkkkk*
+
+*env - é utilizado para exibir as variáveis de ambiente do sistema operacional.*
+
+![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/440e9447-8fdf-4e18-8347-d890afa056eb)
+
+## Missão 14: O administrador deixou a senha do usuário anna como comentário no arquivo passwd.
+
+Observação: A alice é seu admin.
+
+![image](https://github.com/Paulo23k/Paulo3k-hackmyvm-venus-1-50/assets/143550827/7d07e67a-c91b-4882-bf19-921188cf0964)
+
+*/etc/passwd é um arquivo de texto que armazena informações sobre as contas de usuário, 
+incluindo nomes de usuário, IDs de usuário (UID), diretórios home, entre outros.*
+
+
+
+
+
+
 
 
 
