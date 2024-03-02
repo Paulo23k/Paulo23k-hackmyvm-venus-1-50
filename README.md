@@ -198,6 +198,67 @@ O SSH permite que você se conecte a um servidor de forma segura e execute coman
 -i .iris_key - *Aqui você está especificando qual chave privada (-i)d.iris_key.*
 iris@localhost - *que termina localhost para o qual você está se conectando.*
 
+## Missão 21: A usuária Eloise salvou sua senha de uma maneira específica.
+
+*A senha para o próximo nível está no arquivo eloise, o arquivo eloise está codificado em base64, vamos ter que coverter para jpg*
+
+*Vamos copiar o arquivo codificado em Base64 'eloise' e colar em um diretorio*
+
+*Podemos acessar e copiar o arquivo eloise em cd /tmp/*
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/0af70cc3-9509-4540-a06b-4cf27263256a)
+
+*Pronto, o arquivo já está em jpg, agora vamos visualizar essa imagem com o kali linux.*
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/5d67b465-1bf7-45b0-aa8f-a392a638c14f)
+
+*Vamos atualizar o linux e instalar o firefox para vizualizar a imagem*
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/d4b7b260-ccb0-4935-9863-27a8942fbc81)
+
+*use **firefox eloise.jpg**, para visualizar a imagem.*
+
+Missão 22: A usuária Lúcia foi criativa ao salvar sua senha.
+
+*Lucia armazenou sua senha no arquivo hi.*
+
+*Parece muito com um despejo hexadecimal, existe uma ferramenta de linha de comando do Linux que podemos usar para converter o dump hexadecimal de volta.*
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/dea21a72-6259-4186-b7a4-89ca147baae7)
+
+*Essa tava moleza né*
+
+Missão 23: A usuária isabel deixou sua senha em um arquivo na pasta /etc/xdg mas não lembra o nome, porém possui dict.txt que pode ajudá-la a lembrar.
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/de7f64e5-3ebb-4817-aaa5-1987d44e2efa)
+
+*While - que lê linhas do arquivo dict.txt e as armazena na variável line.* 
+
+*IFS= remove quaisquer caracteres de espaço em branco iniciais e finais das linhas lidas.*
+
+*read -r lê a entrada de forma que as barras invertidas não sejam interpretadas como escape.*
+
+*$line é a variável que contém o nome do arquivo a ser lido em /etc/xdg/.*
+
+Missão 24: A senha do usuário freya é a única string que não se repete em different.txt
+
+*Mais uma molezinha...*
+
+*Precisamos olhar o arquivo ‘diferente.txt’ e encontrar a única linha que não se repete, já utilizamos essa ferramenta de linha de comando chamada uniq.*
+
+![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/41296497-1ffb-438b-a2dc-525c625ee9b0)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
