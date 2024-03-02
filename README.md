@@ -218,7 +218,7 @@ iris@localhost - *que termina localhost para o qual você está se conectando.*
 
 *use **firefox eloise.jpg**, para visualizar a imagem.*
 
-Missão 22: A usuária Lúcia foi criativa ao salvar sua senha.
+## Missão 22: A usuária Lúcia foi criativa ao salvar sua senha.
 
 *Lucia armazenou sua senha no arquivo hi.*
 
@@ -228,7 +228,7 @@ Missão 22: A usuária Lúcia foi criativa ao salvar sua senha.
 
 *Essa tava moleza né*
 
-Missão 23: A usuária isabel deixou sua senha em um arquivo na pasta /etc/xdg mas não lembra o nome, porém possui dict.txt que pode ajudá-la a lembrar.
+## Missão 23: A usuária isabel deixou sua senha em um arquivo na pasta /etc/xdg mas não lembra o nome, porém possui dict.txt que pode ajudá-la a lembrar.
 
 ![image](https://github.com/Paulo23k/Paulo23k-hackmyvm-venus-1-50/assets/143550827/de7f64e5-3ebb-4817-aaa5-1987d44e2efa)
 
@@ -240,7 +240,7 @@ Missão 23: A usuária isabel deixou sua senha em um arquivo na pasta /etc/xdg m
 
 *$line é a variável que contém o nome do arquivo a ser lido em /etc/xdg/.*
 
-Missão 24: A senha do usuário freya é a única string que não se repete em different.txt
+## Missão 24: A senha do usuário freya é a única string que não se repete em different.txt
 
 *Mais uma molezinha...*
 
